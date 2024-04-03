@@ -1,0 +1,15 @@
+Cyclodial gearbox creater for high torque applications with a gear ratio of 39
+
+
+
+
+
+Formula for the cyclodial disks are stated below
+N - Number of rollers
+Rr - Radius of the roller
+R - Radius of the rollers PCD (Pitch Circle Diamater)
+E - Eccentricity - offset from input shaft to a cycloidal disk
+
+x = (R*cos(t))-(Rr*cos(t+arctan(sin((1-N)*t)/((R/(E*N))-cos((1-N)*t)))))-(E*cos(N*t))
+y = (-R*sin(t))+(Rr*sin(t+arctan(sin((1-N)*t)/((R/(E*N))-cos((1-N)*t)))))+(E*sin(N*t))
+
